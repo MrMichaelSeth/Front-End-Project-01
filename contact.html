@@ -20,56 +20,56 @@
     </header>
     <main>
         <form>
+                <div class="primary">
+                    <input type="text" id="fname" name="fname" placeholder='First Name' maxlength="30" required>
+                    <br>
+                    
+                    <input type="text" id="lname" name="lname" placeholder="Last Name" maxlength="30" required>
+                        <br>
         
-                <label for="fname">First Name:</label>
-                    <input type="text" id="fname" name="fname" maxlength="30" required>
-                <label for="lname">Last Name:</label>
-                    <input type="text" id="lname" name="lname" maxlength="30" required>
+                    <input type="email" id="email" name="email" placeholder="Email" maxlength="50" required>
                         <br>
-           
-             
-           
-                <label for="email">Contact Email:</label>
-                    <input type="email" id="email" name="email" maxlength="50" required>
-                        <br>
+                </div>
 
-                <label for="age" name="age">Age:</label>
-                    <select name="age" required>
-                        <option value="selectone">Select One</option>
-                        <option value="under13"> Under 13</option>
-                        <option value="teen">13-18</option>
-                        <option value="youngAdult">18-23</option>
-                        <option value="adult">23-28</option>
-                        <option value="adult">28-35</option>
-                        <option value="adult">35-40</option>
-                        <option value="adult">40 +</option>
-                    </select>
-                        <br>
-                
-                <label for="contact" name="contact">Reason for contacting:</label><br>
-                    <label for="reason1">Build-A-Budget:</label>
-                    <input type="checkbox" name="reason1" value="buildabudget">
+                <div class="secondary">
+                    <label for="age" name="age">Age:</label>
+                        <select name="age" required>
+                            <option value="selectone">Select One</option>
+                            <option value="under13"> Under 13</option>
+                            <option value="teen">13-18</option>
+                            <option value="youngAdult">18-23</option>
+                            <option value="adult">23-28</option>
+                            <option value="adult">28-35</option>
+                            <option value="adult">35-40</option>
+                            <option value="adult">40 +</option>
+                        </select>
+                            <br>
+                    
+                    <label for="contact" name="contact">Reason for contacting:</label><br>
+                        <label for="reason1">Build-A-Budget:</label>
+                        <input type="checkbox" name="reason1" value="buildabudget">
 
-                    <label for="reason2">Investment Strategies:</label>
-                    <input type="checkbox" name="reason2" value="investment">
+                        <label for="reason2">Investment Strategies:</label>
+                        <input type="checkbox" name="reason2" value="investment">
 
-                    <label for="reason3">Debt Repayment Plan:</label>
-                    <input type="checkbox" name="reason3" value="debtplan">
+                        <label for="reason3">Debt Repayment Plan:</label>
+                        <input type="checkbox" name="reason3" value="debtplan">
 
-                    <label for="reason4">Other:</label>
-                    <input type="checkbox" name="reason4" value="other">
-                        <br>
+                        <label for="reason4">Other:</label>
+                        <input type="checkbox" name="reason4" value="other">
+                            <br>
+                </div>
 
-
-                <label for="message" name="message">Message:</label><br>
-                    <textarea id="message" name="message" maxlength="250"></textarea>
-           
+                <div class='comment'>
+                     <label for="message" name="message">Message:</label><br>
+                         <textarea id="message" name="message" maxlength="250"></textarea>
+                 </div>
         </form>
     </main>
         <button type="button" id="submitButton">Submit</button>
 
         <footer>
-                &copy; Copyright 2021
+                &copy; Copyright 2021.  All Rights Reserved.
         </footer>
 
 </body>
