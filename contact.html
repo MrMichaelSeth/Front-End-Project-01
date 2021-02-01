@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div class="fullName">
+                <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" maxlength="30" required>
+                <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" maxlength="30" required>
+                        <br>
+            </div>
+            <div class="phoneInfo">
+                <label for="contact_number">Contact Phone Number:</label>
+                    <input type="tel" id="contact_number" name="contact_number" required>
+                    <br>
+            
+                <p>Phone Number Type:</p>
+                <label for="phonetype">Landline:</label>
+                    <input type="radio" id="landline" name="phonetype" value="Landline" required>
+                
+                <label for="phonetype">Mobile:</label>
+                    <input type="radio" id="mobile" name="phonetype" value="Mobile" required>
+                        <br>
+             </div>
+             <div class="whyContact">
+                <label for="email">Contact Email:</label>
+                    <input type="email" id="email" name="email" maxlength="50" required>
+                        <br>
+
+                <label for="howhear" name="howhear">How did you hear about us:</label>
+                    <select name="howhear" id="howhear">
+                        <option value="selectone">Select One</option>
+                        <option value="searchengine">Search Engine</option>
+                        <option value="socialmedia">Social Media</option>
+                        <option value="recruiter">Recruiter</option>
+                        <option value="wordofmouth">Word of Mouth</option>
+                    </select>
+                        <br>
+                
+                <label for="whyme" name="whyme">Reason for contacting:</label><br>
+                    <label for="reason1">Build-A-Website:</label>
+                    <input type="checkbox" name="reason1" value="buildawebsite">
+
+                    <label for="reason2">Employment:</label>
+                    <input type="checkbox" name="reason2" value="employment">
+
+                    <label for="reason3">Consulting:</label>
+                    <input type="checkbox" name="reason3" value="consulting">
+
+                    <label for="reason4">Other:</label>
+                    <input type="checkbox" name="reason4" value="other">
+                        <br>
+
+
+                <label for="message" name="message">Message:</label><br>
+                    <textarea id="message" name="message" maxlength="250"></textarea>
+            </div>
+        </form>
+    </main>
+        <button type="button" id="submitButton">Submit</button>
+
+</body>
+</html>
