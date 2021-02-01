@@ -104,3 +104,19 @@
     padding: 5px;
     margin: 15px;
    }
+   h2 {
+     margin-top: 20px;
+   }
+   .problem {
+    color: red;
+   }
+   .solution {
+     color: #4CAf50;
+   }
+   p, h2{
+     max-width: 65%;
+   }
+    p{
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
