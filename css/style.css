@@ -68,7 +68,7 @@
     border: none;
     border-radius: 10px;
   }
-  #submitButton {
+  #submitButton, #mainButton {
     border: none;
     background-color: lightgray;
     width: 50%;
@@ -80,7 +80,7 @@
     display: block;
     margin: auto;
   }
-  #submitButton:hover {
+  #submitButton:hover, #mainButton:hover{
     border: none;
     background-color: #4CAF50;
     color: white;
@@ -138,4 +138,27 @@
     hr {
       border: 2px solid black;
       margin: 5px;
+    }
+    #main {
+      text-align: center;
+      margin: 20px;
+      padding: 20px;
+      display: block;
+    }
+    #mainPic {
+      margin-top: 30px;
+      width: 400px;
+      height: 400px;
+    }
+    #mainButton, #mainButton:hover {
+      margin-top: 30px;
+    }
+    #mainSubmit {
+      text-decoration: none;
+      color: black;
+    }
+    #mainSubmit:hover {
+      text-decoration: none;
+      color: white;
+      background-color: #4CAF50;
     }
